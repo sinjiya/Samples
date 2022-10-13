@@ -1,6 +1,6 @@
-[{"name":"John 8:32", "text":"And you shall know the truth, and the truth shall make you free."}
-,{"name":"unknown", "text":"The road to hell is paved with good intentions."}
-,{"name":"Oscar Wilde", "text":"Be yourself; everyone else is already taken."}
-,{"name":"Matthew 7:7", "text":"Ask and it will be given to you; seek and you will find; knock and the door will be opened to you."}
+[{"id":1,   "name":"John 8:32", "text":"And you shall know the truth, and the truth shall make you free."}
+,{"id":2,   "name":"unknown", "text":"The road to hell is paved with good intentions."}
+,{"id":3,   "name":"Oscar Wilde", "text":"Be yourself; everyone else is already taken."}
+,{"id":4,   "name":"Matthew 7:7", "text":"Ask and it will be given to you; seek and you will find; knock and the door will be opened to you."}
  
 ]
