@@ -19,7 +19,7 @@ engine.setProperty('rate', 220)    # Speed percent (can go over 100)
 engine.setProperty('volume', 1.0)  # Volume
 
 recognizer = sr.Recognizer()
-TERMINATIONS =["stop","停","停止","再見","拜拜","不聊了"]
+TERMINATIONS =["stop","停","停止","再見","再见","拜拜","不聊了"]
 mic_List = sr.Microphone.list_microphone_names()
 # for i, mic in enumerate(mic_List):
 #     print(i, mic)
@@ -44,7 +44,7 @@ def take_command():
     #         # pywhatkit.playonyt(text)
     except sr.UnknownValueError:
         print("Google Speech Recognition could not understand audio")
-        return "對不起！我沒聽到你説了什麼。我們還聊聊！"
+        return "對不起！我沒聽到你説了什麼。我們還聊嗎！"
     except sr.RequestError as e:
         print("Could not request results from Google Speech Recognition service; %s" % e)
     except Exception as e:
